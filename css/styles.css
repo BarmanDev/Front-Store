@@ -102,6 +102,10 @@ h3{
     font-size: 3rem;
 }
 
+.navegacion__enlace:last-of-type{ /**Seleciona el último enlance**/
+    margin-right: 0;
+}
+
 .navegacion__enlace--activo,
 .navegacion__enlace:hover{
     color: var(--secundario);
